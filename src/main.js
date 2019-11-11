@@ -13,6 +13,8 @@ class IceCream extends Desserts {
   }
 
   includeSpoon() {
-    console.log("Here is your Spoon!")
+    if(this.scoops === 3) {
+      console.log("Here is your spoon!");
+    }
   }
 }
